@@ -19,16 +19,25 @@ class _SignInState extends State<SignIn> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
+                   SizedBox(
+                    height: 16,
+                  ),
                 CircleAvatar(
                   radius: 70,
                   backgroundImage: AssetImage("assets/images/logo.png"),
                 ),
+                   SizedBox(
+                    height: 16,
+                  ),
                 Text("ChatBox",
                   style: TextStyle(
                   color: Colors.white,
                   fontSize: 30,
                   )
               ),
+                   SizedBox(
+                    height: 16,
+                  ),
 
            GestureDetector(
               onTap: (){
